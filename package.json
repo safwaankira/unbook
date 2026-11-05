@@ -1,0 +1,11 @@
+{
+  "name": "unbook",
+  "version": "0.1.0",
+  "description": "Move a GitBook docs site to a self-hosted Astro Starlight site in one command.",
+  "type": "module",
+  "bin": { "unbook": "unbook.mjs" },
+  "files": ["unbook.mjs", "check.mjs", "template", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "keywords": ["gitbook", "migration", "docs", "starlight", "astro", "static-site"],
+  "license": "MIT"
+}

@@ -1,0 +1,15 @@
+/* Brand it: swap these two to the project's colors. */
+:root { --sl-color-accent: #4f46e5; --sl-color-accent-high: #c7d2fe; --sl-color-accent-low: #1e1b4b; }
+:root[data-theme='light'] { --sl-color-accent: #4338ca; --sl-color-accent-high: #1e1b4b; --sl-color-accent-low: #e0e7ff; }
+
+/* GitBook "inline" token icons inside lists */
+.sl-markdown-content li img { display: inline-block; height: 1.3em; width: auto; vertical-align: -0.25em; margin: 0 0.35em 0 0; }
+.sl-markdown-content li p { display: inline; }
+
+/* GitBook-style bordered tab group; tab row scrolls on phones */
+starlight-tabs { display: block; border: 1px solid var(--sl-color-gray-5); border-radius: 0.5rem; padding: 0 1rem 1rem; }
+starlight-tabs [role='tablist'] { overflow-x: auto; scrollbar-width: thin; }
+
+/* demo banner (Starlight's built-in banner, below the header) */
+.sl-banner { background: #facc15; color: #111; font-weight: 600; font-size: 0.85rem; }
+.sl-banner a { color: #111; }

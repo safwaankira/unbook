@@ -1,0 +1,12 @@
+---
+// Autoplaying, looping, muted video — what GitBook GIFs become after Unbook re-encodes them.
+// The GitBook caption stays in the page text below, so the title is only used as the accessible label.
+const { src, title = '' } = Astro.props;
+---
+<figure class="unbook-video">
+  <video src={src} autoplay loop muted playsinline preload="metadata" aria-label={title}></video>
+</figure>
+<style>
+  .unbook-video { margin: 1.5rem 0; }
+  .unbook-video video { width: 100%; height: auto; border-radius: 0.5rem; border: 1px solid var(--sl-color-gray-5); }
+</style>
